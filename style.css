@@ -1,0 +1,32 @@
+body {
+    /* set background of the page */
+    background-color: lightblue;
+}
+
+/* relative units */
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 80%;
+}
+
+
+/* absolute units */
+img {
+    width: 200px;
+}
+
+video {
+    width: 2.5in;
+}
+
+audio {
+    width: 6cm;
+}
+
