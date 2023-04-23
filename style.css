@@ -41,6 +41,7 @@ div.minutes {
     padding-right: 1em;
 }
 
+/* text decoration */
 div.minutes h4 {
     text-decoration: underline;
 }
