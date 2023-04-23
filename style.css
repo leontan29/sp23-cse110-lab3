@@ -30,3 +30,18 @@ audio {
     width: 6cm;
 }
 
+/* box model */
+div.minutes {
+    margin: 2cm;
+    margin-right: 3cm;
+    border: 5px solid red;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+div.minutes h4 {
+    text-decoration: underline;
+}
+
