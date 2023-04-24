@@ -1,126 +1,258 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Daily Standup Meeting Template</title>
-    <meta charset ="UTF-8">
-    <link rel="stylesheet" href = "styles.css">
-</head>
-<style>
-body {
-    background-color: burlywood;
-}
+<html>
+  <head>
+    <title>Meeting Minutes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lato:wght@300&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <img id='logo' src='logo.png' alt='logo'></img>
+    <main>
+      <h1>Acme Corporation Board of Directors Meeting</h1>
+      <h2>Date: April 20, 2023</h2>
+      <h2>Time: 9:00 AM - 11:00 AM</h2>
+      <h2>Location: Acme Corporation Headquarters, Conference Room A</h2>
 
-</style>
+      <div class='attendees'>
+	<h3>Attendees:</h3>
+	<ul style="/*inline style*/color: #00008b">
+	  <li>John Smith (Chairperson)</li>
+	  <li>Jane Adams (CEO)</li>
+	  <li>Michael Johnson (CFO)</li>
+	  <li>Sarah Lee (COO)</li>
+	  <li>Robert Chen (Board Member)</li>
+	  <li>Susan Wong (Board Member)</li>
+	</ul>
+      </div>
 
-<body>
-   
-    <header>
-        <h1>Standup Notes</h1>
-        <h3>April 23 2023</h3>
-    </header>
+      <div class='media'>
+        <img src="boardmeeting.jpg" alt="boardmeeting"></img>
+        <video controls src="bloom.mp4" alt="bloom video"></video>
+        <audio controls src="mobydick.mp3" alt="moby dick"> </audio>
+      </div>
 
-        <main>
-            <strong>Attendance</strong>
-            <ul>
-                <li>
-                    Leon
-                </li>
-                <li>
-                    Carissa
-                </li>
-                <li>
-                    Josh
-                </li>
-                <li>
-                    Maddy
-                </li>
-            </ul>
-        
-            <b>What did I accomplish yesterday?</b>
-            <ul>
-                <li>
-                    new homepage designs 
-                </li>
-                <li>
-                    8 ball ux research
-                </li>
-            </ul>
+      <div class="agenda">
+	<h3>Agenda:</h3>
+	<ol>
+	  <li>Call to Order</li>
+	  <li>Review of Financial Reports</li>
+	  <li>Strategic Planning Discussion</li>
+	  <li>Board Member Appointments</li>
+	  <li>Other Business</li>
+	  <li>Adjournment</li>
+	</ol>
+      </div>
 
-            <i>Waht will I do today?</i>
-            <ul>
-                <li>
-                    thing 1 
-                </li>
-            </ul>  
+      <div class="minutes">
+	<h3>Minutes:</h3>
+	<ol>
+	  <li>
+	    <h4>Call to Order</h4>
+	    <p>
+              John Smith called the meeting to order at 9:00 AM and
+              welcomed all attendees.
+	    </p>
+	  </li>
+	  <li>
+	    <h4>Review of Financial Reports</h4>
+	    <p>
+              Michael Johnson presented the financial reports for the
+              first quarter of 2023, including the income statement,
+              balance sheet, and cash flow statement.  Board members
+              reviewed and discussed the financial reports, noting the
+              positive revenue growth and the need for cost management
+              in certain areas.
+	    </p>
+	    <p>
+              A motion was made by Robert Chen and seconded by Sarah
+              Lee to approve the financial reports. The motion was
+              carried unanimously.
+	    </p>
+	  </li>
+	  <li>
+	    <h4>Strategic Planning Discussion</h4>
+	    <p>
+              Jane Adams led a discussion on the strategic planning
+              process for the upcoming fiscal year, highlighting key
+              goals and initiatives.  Board members provided feedback
+              and suggestions on the proposed strategic plan,
+              including the need to prioritize customer retention and
+              expansion efforts.
+	    </p>
+	    <p>
+              After thorough discussion, the board agreed to further
+              refine the strategic plan and present it for approval at
+              the next board meeting.
+	    </p>
+	  </li>
+	  <li>
+	    <h4>Board Member Appointments</h4>
+	    <p>
+              John Smith informed the board that two board member
+              positions will be vacant due to term expirations and
+              called for nominations for new appointments.  Several
+              board members nominated candidates and discussed their
+              qualifications.
+	    </p>
+	    <p>
+              A motion was made by Susan Wong to appoint the nominated
+              candidates as new board members, which was seconded by
+              Michael Johnson. The motion was carried unanimously.
+	    </p>
+	  </li>
+	  <li>
+	    <h4>Other Business</h4>
+	    <p>
+              Jane Adams provided updates on recent regulatory changes
+              affecting the company's industry and potential
+              implications.  Sarah Lee shared an update on the
+              progress of a new partnership initiative and highlighted
+              its potential benefits.  Board members discussed other
+              miscellaneous items, including upcoming events and board
+              member attendance at industry conferences.
+	    </p>
+	    <p>
+              The board discussed and provided feedback on the other
+              business items presented. No motions or decisions were
+              made on these items, as they were for informational
+              purposes only.
+	    </p>
+	  </li>
+	  <li>
+	    <h4>Adjournment</h4>
+	    <p>
+              With no further business to discuss, John Smith
+              adjourned the meeting at 11:00 AM.
+	    </p>
+	  </li>
+	  <li class='hide'>
+	    <!-- this won't show up! -->
+	    <h4>Optional Items</h4>
+	    <p>
+	      Do not show this.
+	    </p>
+          </li>
+	</ol>
+      </div>
 
-        <a href="https://www.example.com">Visit Example.com</a>
+      <div class='top3flex'>
+	<h3>Top 3 Things (flex):</h3>
+	<section class='flexcontainer'>
+	  <div>
+	    <h4>One</h4>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+	      elit. Fusce ipsum tortor, mattis a sapien ut, varius
+	      imperdiet mi. Proin eget velit nec nisl dignissim
+	      facilisis mollis eu lectus. Nam fringilla convallis
+	      imperdiet. Etiam in justo in nisl aliquam pulvinar in
+	      sed nunc. Pellentesque leo justo, semper vel auctor at,
+	      lacinia vitae sem. Nullam eleifend convallis risus, sit
+	      amet luctus urna vehicula sed. Aliquam ultrices
+	      scelerisque faucibus. Duis scelerisque auctor quam a
+	      convallis. Donec nec libero ut elit mattis accumsan in
+	      quis quam. Cras mi ante, mattis egestas urna in,
+	      fermentum pretium elit. Pellentesque molestie tortor
+	      quis lectus lacinia dignissim. Sed id quam massa.</p>
+	  </div>
+	  <div>
+	    <h4>Two</h4>
+	    <p>Morbi pellentesque velit ut orci convallis
+	      dapibus. Interdum et malesuada fames ac ante ipsum primis in
+	      faucibus. Etiam consectetur tortor diam. Maecenas tincidunt
+	      justo ut finibus hendrerit. Suspendisse pulvinar tortor
+	      eros, non posuere justo tempor ornare. Fusce vitae dui
+	      ipsum. Nunc quis lacus et sem varius aliquam id sit amet
+	      purus. Duis in egestas sapien. Donec euismod nunc tortor,
+	      sed posuere odio porttitor vel.
+	    </p>
+	  </div>
+	  <div>
+	    <h4>Three</h4>
+	    <p>Suspendisse sed pulvinar tellus, eu mattis
+	      lacus. Vestibulum et neque lacus. Donec volutpat fringilla
+	      elit, ac aliquet erat tempor nec. Nam fermentum sit amet mi
+	      scelerisque ultricies. Interdum et malesuada fames ac ante
+	      ipsum primis in faucibus. Nullam consectetur, purus ac
+	      dictum ultrices, arcu diam mollis ligula, et malesuada
+	      ligula dui vel urna. Vivamus convallis sit amet lectus vel
+	      congue. Mauris nec dapibus arcu. Fusce interdum velit in
+	      tellus eleifend tincidunt. Ut massa tellus, scelerisque at
+	      pulvinar eu, lobortis a felis. Donec mattis neque sit amet
+	      orci ornare egestas. Donec rutrum tellus sed purus
+	      tincidunt, a mattis dolor malesuada.
+	    </p>
+	  </div>
+	</section>
+      </div>
 
-            <ul>
-            <li>
-                Was this homework done correclty?
-            </li>
-        </ul>
-        <ul>
-            <li>
-                What else do we have to do?
-            </li>
-        </ul>
-        <a>
-            Here is my image, audio, and video
-        </a>
+      <div class='top3grid'>
+	<h3>Top 3 Things (grid):</h3>
+	<section class='gridcontainer'>
+	  <div class='griditem-a'>
+	    <h4>One</h4>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+	      elit. Fusce ipsum tortor, mattis a sapien ut, varius
+	      imperdiet mi. Proin eget velit nec nisl dignissim
+	      facilisis mollis eu lectus. Nam fringilla convallis
+	      imperdiet. Etiam in justo in nisl aliquam pulvinar in
+	      sed nunc. Pellentesque leo justo, semper vel auctor at,
+	      lacinia vitae sem. Nullam eleifend convallis risus, sit
+	      amet luctus urna vehicula sed. Aliquam ultrices
+	      scelerisque faucibus. Duis scelerisque auctor quam a
+	      convallis. Donec nec libero ut elit mattis accumsan in
+	      quis quam. Cras mi ante, mattis egestas urna in,
+	      fermentum pretium elit. Pellentesque molestie tortor
+	      quis lectus lacinia dignissim. Sed id quam massa.</p>
+	  </div>
+	  <div class='griditem-b'>
+	    <h4>Two</h4>
+	    <p>Morbi pellentesque velit ut orci convallis
+	      dapibus. Interdum et malesuada fames ac ante ipsum primis in
+	      faucibus. Etiam consectetur tortor diam. Maecenas tincidunt
+	      justo ut finibus hendrerit. Suspendisse pulvinar tortor
+	      eros, non posuere justo tempor ornare. Fusce vitae dui
+	      ipsum. Nunc quis lacus et sem varius aliquam id sit amet
+	      purus. Duis in egestas sapien. Donec euismod nunc tortor,
+	      sed posuere odio porttitor vel.
+	    </p>
+	  </div>
+	  <div class='griditem-c'>
+	    <h4>Three</h4>
+	    <p>Suspendisse sed pulvinar tellus, eu mattis
+	      lacus. Vestibulum et neque lacus. Donec volutpat fringilla
+	      elit, ac aliquet erat tempor nec. Nam fermentum sit amet mi
+	      scelerisque ultricies. Interdum et malesuada fames ac ante
+	      ipsum primis in faucibus. Nullam consectetur, purus ac
+	      dictum ultrices, arcu diam mollis ligula, et malesuada
+	      ligula dui vel urna. Vivamus convallis sit amet lectus vel
+	      congue. Mauris nec dapibus arcu. Fusce interdum velit in
+	      tellus eleifend tincidunt. Ut massa tellus, scelerisque at
+	      pulvinar eu, lobortis a felis. Donec mattis neque sit amet
+	      orci ornare egestas. Donec rutrum tellus sed purus
+	      tincidunt, a mattis dolor malesuada.
+	    </p>
+	  </div>
+	</section>
+      </div>
+      
+      <div class='nextmeeting'>
+	<h3>Next Meeting:</h3>
+	<p>
+	  The next Acme Corporation Board of Directors Meeting is
+	  scheduled for May 18, 2023, at 9:00 AM in Conference Room A
+	  at the Acme Corporation Headquarters.
+	</p>
+      </div>
 
-        <img src ="PDD.jpg" alt = "product design diagram">
-
-        <video controls src = "Video.mp4"></video>
-        <audio controls src = "Audio.mp3"></audio>
-
-        <div>
-            
-        </div>
-
-        <span> 
-
-        </span>
+      <div class='preparedby'>
+	<h3>Meeting Minutes Prepared By:</h3>
+	<p>
+	  Jane Adams (Secretary)
+	</p>
+      </div>
 
     </main>
-
-    <details>
-        <summary>Details</summary>
-        This is Lab 2
-    </details>
-
-    <details>
-        <summary>Lab 2</summary>
-        <p>This is a summary</p>
-      </details>
-
-    <input type="text" id="name" name="name" required
-       minlength="4" maxlength="8" size="10">
-
-    <textarea id="assignment" name="assignment"
-                rows="5" cols="20">
-    This is taking really long...
-    </textarea>
-
-    <datalist id="browsers"></datalist>
-
-    <form>
-        <label for="lab">Choose a lab:</label>
-        <select name="lab" id="lab">
-          <option value="lab 1">lab 1</option>
-          <option value="lab 2">lab 2</option>
-        </select>
-        <br><br>
-        <input type="submit" value="Submit">
-    </form>
-
-      <button type="button">Click Me!</button>
-
-    <hr>
-
-    <footer>
-        <p> Made by Leon Tan</p>
-   </footer>
-
-</body>
+  </body>
 </html>
