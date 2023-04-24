@@ -1,7 +1,22 @@
-body {
-    /* set background of the page */
-    background-color: lightblue;
+/* media */
+@media print {
+    body {
+	background-color: white;
+    }
 }
+
+@media screen and (max-width: 50em) {
+    body {
+	background-color: salmon;
+    }
+}
+
+@media screen and (min-width: 50em) {
+    body {
+	background-color: lightblue;
+    }
+}
+
 
 /* relative units */
 h1 {
@@ -39,6 +54,19 @@ div.minutes {
     font-size: 1.2em;
     padding-left: 1em;
     padding-right: 1em;
+}
+
+div.nextmeeting {
+    /* center in a 60% box */
+    margin: auto;
+    width: 60%;
+}
+
+div.preparedby {
+    /* center in a smaller box */
+    margin: auto;
+    width: 60%;
+    max-width: 500px;
 }
 
 /* text decoration */
@@ -84,4 +112,26 @@ p {
 
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+/* pseudo class */
+h4:hover {
+    color: red;
+}
+
+/* selector */
+* {
+    color: black;
+}
+
+img ~ audio {
+    padding-left: 5em;
+}
+
+div > ul {
+    font-weight: bold;
+}
+
+div > h3 {
+    font-size: 1.5em;
 }
