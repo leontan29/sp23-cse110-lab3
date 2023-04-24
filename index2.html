@@ -3,26 +3,35 @@
   <head>
     <title>Meeting Minutes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lato:wght@300&family=Montserrat:ital@1&display=swap" rel="stylesheet">
   </head>
   <body>
+    <img id='logo' src='logo.png' alt='logo'></img>
     <main>
-      <h1>ABC Corporation Board of Directors Meeting</h1>
+      <h1>Acme Corporation Board of Directors Meeting</h1>
       <h2>Date: April 20, 2023</h2>
       <h2>Time: 9:00 AM - 11:00 AM</h2>
-      <h2>Location: ABC Corporation Headquarters, Conference Room A</h2>
-      
-      <h3>Attendees:</h3>
-      <ul style="/*inline style*/color: #00008b">
-	<li>John Smith (Chairperson)</li>
-	<li>Jane Adams (CEO)</li>
-	<li>Michael Johnson (CFO)</li>
-	<li>Sarah Lee (COO)</li>
-	<li>Robert Chen (Board Member)</li>
-	<li>Susan Wong (Board Member)</li>
-      </ul>
-      <img src="boardmeeting.jpg" alt="boardmeeting"></img>
-      <video controls src="bloom.mp4" alt="bloom video"></video>
-      <audio controls src="mobydick.mp3" alt="moby dick"> </audio>
+      <h2>Location: Acme Corporation Headquarters, Conference Room A</h2>
+
+      <div class='attendees'>
+	<h3>Attendees:</h3>
+	<ul style="/*inline style*/color: #00008b">
+	  <li>John Smith (Chairperson)</li>
+	  <li>Jane Adams (CEO)</li>
+	  <li>Michael Johnson (CFO)</li>
+	  <li>Sarah Lee (COO)</li>
+	  <li>Robert Chen (Board Member)</li>
+	  <li>Susan Wong (Board Member)</li>
+	</ul>
+      </div>
+
+      <div class='media'>
+        <img src="boardmeeting.jpg" alt="boardmeeting"></img>
+        <video controls src="bloom.mp4" alt="bloom video"></video>
+        <audio controls src="mobydick.mp3" alt="moby dick"> </audio>
+      </div>
       
       <h3>Agenda:</h3>
       <ol>
@@ -40,63 +49,98 @@
 	  <li>
 	    <h4>Call to Order</h4>
 	    <p>
-              John Smith called the meeting to order at 9:00 AM and welcomed all attendees.
+              John Smith called the meeting to order at 9:00 AM and
+              welcomed all attendees.
 	    </p>
 	  </li>
 	  <li>
 	    <h4>Review of Financial Reports</h4>
 	    <p>
-              Michael Johnson presented the financial reports for the first quarter of 2023, including the income statement, balance sheet, and cash flow statement.
-              Board members reviewed and discussed the financial reports, noting the positive revenue growth and the need for cost management in certain areas.
+              Michael Johnson presented the financial reports for the
+              first quarter of 2023, including the income statement,
+              balance sheet, and cash flow statement.  Board members
+              reviewed and discussed the financial reports, noting the
+              positive revenue growth and the need for cost management
+              in certain areas.
 	    </p>
 	    <p>
-              A motion was made by Robert Chen and seconded by Sarah Lee to approve the financial reports. The motion was carried unanimously.
+              A motion was made by Robert Chen and seconded by Sarah
+              Lee to approve the financial reports. The motion was
+              carried unanimously.
 	    </p>
 	  </li>
 	  <li>
 	    <h4>Strategic Planning Discussion</h4>
 	    <p>
-              Jane Adams led a discussion on the strategic planning process for the upcoming fiscal year, highlighting key goals and initiatives.
-              Board members provided feedback and suggestions on the proposed strategic plan, including the need to prioritize customer retention and expansion efforts.
+              Jane Adams led a discussion on the strategic planning
+              process for the upcoming fiscal year, highlighting key
+              goals and initiatives.  Board members provided feedback
+              and suggestions on the proposed strategic plan,
+              including the need to prioritize customer retention and
+              expansion efforts.
 	    </p>
 	    <p>
-              After thorough discussion, the board agreed to further refine the strategic plan and present it for approval at the next board meeting.
+              After thorough discussion, the board agreed to further
+              refine the strategic plan and present it for approval at
+              the next board meeting.
 	    </p>
 	  </li>
 	  <li>
 	    <h4>Board Member Appointments</h4>
 	    <p>
-              John Smith informed the board that two board member positions will be vacant due to term expirations and called for nominations for new appointments.
-              Several board members nominated candidates and discussed their qualifications.
+              John Smith informed the board that two board member
+              positions will be vacant due to term expirations and
+              called for nominations for new appointments.  Several
+              board members nominated candidates and discussed their
+              qualifications.
 	    </p>
 	    <p>
-              A motion was made by Susan Wong to appoint the nominated candidates as new board members, which was seconded by Michael Johnson. The motion was carried unanimously.
+              A motion was made by Susan Wong to appoint the nominated
+              candidates as new board members, which was seconded by
+              Michael Johnson. The motion was carried unanimously.
 	    </p>
 	  </li>
 	  <li>
 	    <h4>Other Business</h4>
 	    <p>
-              Jane Adams provided updates on recent regulatory changes affecting the company's industry and potential implications.
-              Sarah Lee shared an update on the progress of a new partnership initiative and highlighted its potential benefits.
-              Board members discussed other miscellaneous items, including upcoming events and board member attendance at industry conferences.
+              Jane Adams provided updates on recent regulatory changes
+              affecting the company's industry and potential
+              implications.  Sarah Lee shared an update on the
+              progress of a new partnership initiative and highlighted
+              its potential benefits.  Board members discussed other
+              miscellaneous items, including upcoming events and board
+              member attendance at industry conferences.
 	    </p>
 	    <p>
-              The board discussed and provided feedback on the other business items presented. No motions or decisions were made on these items, as they were for informational purposes only.
+              The board discussed and provided feedback on the other
+              business items presented. No motions or decisions were
+              made on these items, as they were for informational
+              purposes only.
 	    </p>
 	  </li>
 	  <li>
 	    <h4>Adjournment</h4>
 	    <p>
-              With no further business to discuss, John Smith adjourned the meeting at 11:00 AM.
+              With no further business to discuss, John Smith
+              adjourned the meeting at 11:00 AM.
 	    </p>
 	  </li>
+	  <li class='hide'>
+	    <!-- this won't show up! -->
+	    <h4>To Do</h4>
+	    <p>
+	      Do not show this.
+	    </p>
+          </li>
 	</ol>
       </div>
 
       <div class='nextmeeting'>
 	<h3>Next Meeting:</h3>
 	<p>
-	  The next ABC Corporation Board of Directors Meeting is scheduled for May 18, 2023, at 9:00 AM in Conference Room A at the ABC Corporation Headquarters.
+	  The next Acme Corporation Board of Directors Meeting is
+	  scheduled for May 18, 2023, at 9:00 AM in Conference Room A
+	  at the Acme Corporation Headquarters.
 	</p>
       </div>
 

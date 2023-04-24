@@ -48,5 +48,40 @@ div.minutes h4 {
 
 
 /* display */
-div.nextmeeting {
+.hide {
+    display: none;
+}
+
+div.media {
+    display: inline-block;
+    padding: 1em;
+}
+
+/* position */
+img#logo {
+    position: sticky;
+    top: 40px;
+    float: right;
+    height: 70px;
+    width: 200px;
+    padding-right: 1em;
+}
+
+div.media video {
+    position: absolute;
+    top: 500px;
+    left: 700px;
+}
+
+/* font */
+h3 {
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
